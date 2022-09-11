@@ -1,0 +1,21 @@
+.companyList {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .title {
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        width: 100%;
+        border-bottom: 1px solid #e8eaed;
+    }
+    .company {
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        width: 100%;
+        border-bottom: 1px solid #e8eaed;
+        &:last-child {
+            border: none;
+        }
+    }
+}

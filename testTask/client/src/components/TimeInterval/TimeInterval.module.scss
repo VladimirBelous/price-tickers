@@ -1,0 +1,11 @@
+.timeInterval {
+    margin-top: 20px;
+    .timeIntervalContainer {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+}
